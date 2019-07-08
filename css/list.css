@@ -1,0 +1,90 @@
+.clear {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+#listBody {
+	height: 1230px;
+}
+
+.listContent01 {
+	height: 316px;
+}
+
+.listContent01LeftAdd {
+	width: 25%;
+	height: 100%;
+}
+
+#listContent01Left {
+	width: 100%;
+	margin-top: 2px;
+}
+
+.listContent01Leftlist {
+	width: 93%;
+	padding: 6px 14px;
+	border: 1px solid gainsboro;
+	font-size: 12px;
+	border-top: none;
+}
+
+.listContent01 ul li:nth-child(1) {
+	border-top: 1px solid gainsboro;
+	background-color: gainsboro;
+}
+
+#listContent01Right {
+	padding-top: 2px;
+	margin-left: 20px;
+	width: 73%;
+	height: 100%;
+	float: right!important;
+}
+
+#listContent01Right img {
+	width: 100%;
+	height: auto;
+}
+
+.shadows:hover {
+	transform: scale(0.98);
+	box-shadow: 1px 1px 10px gray;
+	transition: 0.2s;
+	border: none;
+}
+
+.listContent02 {
+	height: 1050px;
+	margin-top: 20px;
+}
+
+#listContent02Right {
+	width: 100%;
+}
+
+.listContent02RightBox {
+	width: 23%;
+	margin-left: 10px;
+}
+
+.listContent02RightBoxImg {
+	margin-left: 13px;
+	margin-top: 4px;
+	height: 200px;
+}
+
+#listContent02RightBoxP1,
+#listContent02RightBoxP2 {
+	width: 100%;
+}
+
+#listContent02RightBoxP1 {
+	margin-top: 15px;
+	color: black;
+}
+
+#listFooter {
+	margin-top: 0;
+}
