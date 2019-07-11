@@ -798,7 +798,7 @@
 					if(oIndex == oUl.children.length - 1) {
 						oOl.children[0].classList.add("current");
 					}
-					console.log(oUl.style.left);
+					
 				}
 			}
 
@@ -823,10 +823,10 @@
 
 			//吸顶效果
 			var oHeader = document.getElementsByTagName('header')[0];
-			console.log(oHeader)
+			
 			document.onscroll = function() {
 				var top = document.documentElement.scrollTop;
-				console.log(top)
+				
 				if(top > 56) {
 					oHeader.style.position = 'fixed';
 				} else {
